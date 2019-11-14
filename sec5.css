@@ -1,0 +1,51 @@
+
+
+.ss13
+{
+	width: 30%;
+}
+.ss23
+{
+	width: 30%;
+}
+.ss33
+{
+	width: 30%;
+}
+.ss23 img
+{
+	color: rgba(0,0,0,0.8);
+	padding-top: 20%;
+}
+.plan-Box
+{
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+}
+.plan-Box div
+{
+	padding: 14px;
+	border-bottom: 1px solid #e8e8e8;
+	box-shadow: 0 2px 2px #efefef;
+}
+.plan-price
+{
+	font-size: 150%;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #e67e22;
+}
+.plan-price-meal
+{
+	font-size: 
+}
+.plan-Box ul
+{
+	list-style: none;
+}
+.plan-Box ul li
+{
+	padding: 5px 0;
+}

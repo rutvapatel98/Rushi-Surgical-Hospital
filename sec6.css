@@ -1,0 +1,24 @@
+.contactF
+{
+	padding-left: 10%;
+	width: 80%;
+	margin: 3px auto;
+}
+input[type=text],input[type=email], select, textarea
+{
+	margin-top: 4px;
+	margin-left: 40px;
+	width: 200%;
+	padding: 7px;
+	border-radius: 3px; 
+	border: 1px solid #ccc;
+}
+textarea
+{
+	height: 100px;
+}
+input[type=Submit]
+{
+	margin-top: 10px;
+	margin-left: 40px;
+}

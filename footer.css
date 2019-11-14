@@ -1,0 +1,81 @@
+footer
+{
+	background-color: black; 
+	text-align: center;
+	opacity: 0.9;
+	padding: 50px;
+}
+footer p
+{
+	color: #777;
+	text-align: center;
+	font-size: 97%;
+	margin-top: 5px;
+}
+.footer-nav
+{
+	list-style: none;
+	float: left;
+	margin-top: 1%;
+}
+.socials
+{
+	list-style: none;
+	float: right;
+}
+.footer-nav li,.socials li
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+.socials li a
+{
+	font-size: 110%;
+}
+.footer-nav li:last-child,
+.socials li:last-child
+{
+	margin-right: 0;
+}
+.s22 
+{
+	width: 50%;
+	float: right;
+}
+.s12
+{
+	width: 50%;
+	float: left;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.socials li a:link,
+.socials li a:visited
+{
+	text-decoration: none;
+	border: 0;
+	color: #aaa;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.socials li a:hover,
+.socials li a:active
+{
+	color: #ddd;
+}   
+.fa-facebook:hover
+{
+	color: #3b5998;
+}
+.fa-google-plus:hover
+{
+	color: #dd4b39;
+}
+.fa-twitter:hover
+{
+	color: #00aced;
+}
+.fa-instagram:hover
+{
+	color: #517fa4;
+}

@@ -1,0 +1,38 @@
+.section-reviews
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding-left: 220px;
+}
+blockquote
+{
+	padding: 2%;
+	line-height: 150%;
+	font-size: 20px;
+
+}
+cite
+{
+	font-size: 95%;
+	margin: 20px;
+	display: block;
+}
+
+
+.mySlides{
+	text-align: center;
+	position: relative;
+	margin-left: 84%;
+}
+
+.mySlides img:hover{
+
+	
+	filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.12);
+
+}

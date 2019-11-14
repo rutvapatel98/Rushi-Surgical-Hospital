@@ -1,0 +1,47 @@
+.box img
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.cities-f
+{
+	margin: 5px;
+}
+.icon-small
+{
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	color: #e67e22;
+	font-size: 120%;
+}
+a.lin:link,
+a.lin:visited
+{
+	color: #e67e22;
+	text-decoration: none;  
+	border-bottom: 1px solid #e67e22;
+}
+a.lin:hover,
+a.lin:active
+{
+	color: #555;
+	border-bottom: 1px solid transparent; 
+}
+
+.row img{
+	padding: 8px;
+	opacity: 0.8;
+
+	border-radius: 10px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+background: url(URL) no-repeat;
+box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+width: 230px;
+	height: 290px;
+	padding: 5px;
+}

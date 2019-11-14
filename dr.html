@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>10a</title>
+	<script type="text/javascript">
+		
+			var d = new Date();
+
+			var date = d.getDate();
+			var hour = d.getHours();
+			var month = d.getMonth();
+			document.write("current date " +date + "<br>");
+			document.write("Current Hour : "+d.getHours()+"<br>"+"Current Minutes : "+d.getMinutes()+"<br>"+"Current Second : "+d.getSeconds()+"<br>");
+
+			if(hour >= 6 && hour < 12)
+				document.write("good morning");
+			else if(hour >= 12 && hour <= 18)
+				document.write("good afternoon");
+			if(hour > 18 && hour < 21)
+				document.write("good evening");
+			else 
+				document.write("good night");
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

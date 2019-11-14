@@ -1,0 +1,32 @@
+html
+{
+	font-family: Lato;
+	box-sizing: border-box;
+}
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(hero.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+#logo
+{
+	height: 15%;
+	width: 15%;
+	padding-left: 9%;
+}
+#head
+{
+	position: absolute;
+	width: 1000px;
+	top: 25%;
+	left: 40%;
+}
+h1
+{
+	color: #fff;
+	font-size: 240%;;
+	font-weight: 75%
+}

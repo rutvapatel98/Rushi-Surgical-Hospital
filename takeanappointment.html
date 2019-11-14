@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>TAKE AN APPOINTMENT! - Formoid web forms</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript">
+function val(){
+if(frm.number.value=="")
+{
+	alert("Please enter the phone number");
+	frm.number.focus(); 
+	return false;
+}
+if(isNaN(frm.number.value))
+{
+	alert("Invalid phone number");
+	frm.number.focus(); 
+	return false;
+}
+if((frm.number.value).length < 10)
+{
+	alert("Phone number should be minimum 10 digits");
+	frm.number.focus(); 
+	return false;
+}if(frm.email.value=="")
+{
+	alert("Please enter the email");
+	frm.email.focus();	
+	return false;
+}	
+var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+if (reg.test(frm.email.value) == false) 
+{
+	alert('Invalid email address');
+	frm.email.focus();	
+	return false;
+}
+
+
+return true;
+}
+</script>
+</head>
+<style type="text/css">
+
+body{
+	background-image: url("image1.jpg");
+	opacity: 0.8;
+}</style>
+<body class="blurBg-false">
+
+
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="takeanappointment_files/formoid1/formoid-solid-dark.css" type="text/css" />
+
+<form class="formoid-solid-dark" style="background-color:#FFFFFF;font-size:16px;font-family:'Lato',sans-serif;color:#34495E;max-width:480px;min-width:150px" method="post" name="frm">
+	<div class="title">
+		<h2>TAKE AN APPOINTMENT!</h2>
+	</div>
+	<div class="element-input">
+		<label class="title">
+			<span class="required">*</span>
+		</label>
+		<div class="item-cont">
+			<input class="large" type="text" name="input" required="required" placeholder="First Name"/>
+			<span class="icon-place"></span>
+		</div>
+	</div>
+	<div class="element-input">
+		<label class="title">
+			<span class="required">*</span>
+		</label>
+			<div class="item-cont">
+				<input class="large" type="text" name="input1" required="required" placeholder="Surname"/>
+				<span class="icon-place"></span>
+			</div>
+		</div>
+	<div class="element-radio">
+		<label class="title">Sex
+			<span class="required">*</span>
+		</label>		
+	<div class="column column1">
+		<label>
+			<input type="radio" name="radio" value="Male" required="required"/>
+			<span>Male</span>
+		</label>
+		<label>
+			<input type="radio" name="radio" value="Female" required="required"/>
+			<span>Female</span>
+		</label>
+		<label>
+		<input type="radio" name="radio" value="Transgender" required="required"/>
+		<span>Transgender</span>
+		</label>
+</div>
+<span class="clearfix"></span>
+</div>
+	<div class="element-date">
+		<label class="title">
+			<span class="required">*</span>
+		</label>
+		
+	</div>
+	<div class="element-number">
+		
+		<div class="item-cont">
+			<input class="large" type="text" min="10" max="10" name="number" required="required" placeholder="Mobile No" value="">
+			<span class="icon-place"></span>
+		</div></div>
+	<div class="element-email">
+		<label class="title"></label>
+		<label class="title">
+			<span class="required">*</span>
+		</label>
+		<div class="item-cont">
+			<input class="large" type="email" name="email" value="" placeholder="Email"/>
+			<span class="icon-place"></span>
+		</div>
+	</div>
+
+<div class="calculate_birthdate">
+	<button><a href="age1.html">Calculate Age</a></button>
+</div>
+	<div class="element-radio">
+		<label class="title">Have you previously attended our facility?
+			<span class="required">*</span>
+		</label>		
+		<div class="column column1">
+			<label>
+				<input type="radio" name="radio1" value="Yes" required="required"/>
+				<span>Yes</span>
+			</label>
+			<label>
+				<input type="radio" name="radio1" value="No" required="required"/>
+				<span>No</span>
+			</label>
+		</div>
+		<span class="clearfix"></span>
+</div>
+	<div class="element-textarea"><label class="title">
+		</label>
+			<div class="item-cont">
+				<textarea class="small" name="textarea" cols="20" rows="5" placeholder="Desciption of your problem"></textarea>
+				<span class="icon-place"></span>
+			</div>
+		</div>
+	<div class="element-date">
+		<label class="title">
+			<span class="required">*</span>
+		</label>
+		<div class="item-cont">
+			<input class="large" data-format="yyyy-mm-dd" type="date" name="date" required="required" placeholder="Schedule your Appointment"/>
+			<span class="icon-place"></span>
+		</div>
+	</div>
+<div class="submit">
+	<input type="submit" value="Submit" onclick="return val();" />
+</div>
+</form>
+<p class="frmd"><a href="http://formoid.com/v29.php">web forms</a> Formoid.com 2.9</p><script type="text/javascript" src="takeanappointment_files/formoid1/formoid-solid-dark.js"></script>
+<!-- Stop Formoid form-->
+
+
+
+</body>
+</html>
